@@ -59,14 +59,14 @@ async def fetch_info(replied_user, event):
     caption += f"<b>🤵 Username:</b> {username}\n"
     caption += f"<b>🔖 ID:</b> <code>{user_id}</code>\n"
     caption += f"<b>🌏 DC:</b> {dc_id}\n"
-    caption += f"<b>🖼 Foto profilo:</b> {replied_user_profile_photos_count}\n"
-    caption += f"<b>⭐️ Is Premium:</b> {is_premium}\n"
-    caption += f"<b>🤖 Is Bot:</b> {is_bot}\n"
-    caption += f"<b>🔏 Is Restricted:</b> {restricted}\n"
-    caption += f"<b>🌐 Is Verified by Telegram:</b> {verified}\n\n"
+    caption += f"<b>🖼 Numero di foto profilo:</b> {replied_user_profile_photos_count}\n"
+    caption += f"<b>⭐️ Premium:</b> {is_premium}\n"
+    caption += f"<b>🤖 Bot:</b> {is_bot}\n"
+    caption += f"<b>🔏 Limitato:</b> {restricted}\n"
+    caption += f"<b>🌐 Verificato da Telegram:</b> {verified}\n\n"
     caption += f"<b>✍️ Bio:</b> \n<code>{user_bio}</code>\n\n"
-    caption += f"<b>👥 Common Chats with this user:</b> {common_chat}\n"
-    caption += "<b>🔗 Permanent Link To Profile:</b> "
+    caption += f"<b>👥 Chat in comune:</b> {common_chat}\n"
+    caption += "<b>🔗 Link del profilo:</b> "
     caption += f'<a href="tg://user?id={user_id}">{first_name}</a>'
     return photo, caption
 
