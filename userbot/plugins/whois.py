@@ -124,9 +124,9 @@ async def _(event):
         cas = "**Antispam(CAS) Banned :** `Couldn't Fetch`"
     caption = """**Info of [{}](tg://user?id={}):
    -🔖ID : **`{}`
-   **-**👥**Groups in Common : **`{}`
-   **-**🌏**Data Centre Number : **`{}`
-   **-**🔏**Restricted by telegram : **`{}`
+   **-**👥**Gruppi in comune : **`{}`
+   **-**🌏**DC : **`{}`
+   **-**🔏**Limitato : **`{}`
    **-**🦅{}
    **-**👮‍♂️{}
 """.format(
