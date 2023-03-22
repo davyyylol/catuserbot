@@ -49,11 +49,11 @@ async def fetch_info(replied_user, event):
     first_name = (
         first_name.replace("\u2060", "")
         if first_name
-        else ("This User has no First Name")
+        else ("Questo utente non ha un primo nome")
     )
     full_name = full_name or first_name
-    username = f"@{username}" if username else "This User has no Username"
-    user_bio = user_bio or "This User has no About"
+    username = f"@{username}" if username else "Questo utente non ha un username"
+    user_bio = user_bio or "Questo utente non ha una bio"
     caption = "<b><i>Informazioni utente</i></b>\n\n"
     caption += f"<b>👤 Nome:</b> {full_name}\n"
     caption += f"<b>🤵 Username:</b> {username}\n"
